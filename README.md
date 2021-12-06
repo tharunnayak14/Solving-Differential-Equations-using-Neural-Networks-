@@ -1,5 +1,16 @@
 # Solving-Differential-Equations-using-Neural-Networks-
 
+Consider the first order ODE: 
+ 	dΨ(x)/dx = f(x, Ψ)   (1)
+with x ∈ [0, 1] and with the Initial Condition Ψ(0) = A.
+A trial solution is written as:  Ψtrial(x) = A + xN(x, p)
+where N(x, p) is the output of a ANN with one input unit for x and weights p. 
+Now all we need is a loss function, Ψtrial(x) is the solution of the differential equation
+	Ψtrial(x) satisfies equation (1)
+	d Ψtrial(x) /dx ≈ f(x, Ψtrial)
+	d Ψtrial(x) /dx - f(x, Ψtrial) ≈ 0  (2)
+
+
 ![question1](https://user-images.githubusercontent.com/52671445/144845678-7f79dba2-0ef6-4049-8a48-52c5e3ebcba5.jpg)
 <p>&emsp; Ψ(0) = 0 and x ∈ [0, 2]</p>
 
