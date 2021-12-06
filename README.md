@@ -21,10 +21,12 @@ So we define the loss function as:</br></br>
 <p>&emsp; Ψ(0) = 0 and x ∈ [0, 2]</p>
 
 ![2021-12-03 13 34 43 localhost a9f9d05fcd77](https://user-images.githubusercontent.com/52671445/144845699-74492e0d-fbcb-4ee6-b8f6-d87f75329301.png)
-Consider the 2nd order ode:
- 	d2Ψ(x)/dx2 = f(x, Ψ, dΨ/dx) (3)
+</br>
+Consider the 2nd order ode:</br>
+ 	d2Ψ(x)/dx2 = f(x, Ψ, dΨ/dx) (3)</br>
 	
-	![2021-12-01 21 47 34 arxiv org 46bf989a93d7](https://user-images.githubusercontent.com/52671445/144847969-ff096fa3-e06c-493a-8eec-e91cf2ddf9fa.png)
+![2021-12-01 21 47 34 arxiv org 46bf989a93d7](https://user-images.githubusercontent.com/52671445/144848088-2623a12b-6430-4f49-b044-ef3cb1090f4f.png)
+
 
  ![2021-12-01 21 44 45 arxiv org 482d49c0b910](https://user-images.githubusercontent.com/52671445/144847972-6782f59a-6db6-46f1-a2e1-07121ced0b39.png)
 
