@@ -8,7 +8,13 @@ A trial solution is written as:  Ψtrial(x) = A + xN(x, p) </br>
 where N(x, p) is the output of a ANN with one input unit for x and weights p.  </br>
 Now all we need is a loss function, Ψtrial(x) is the solution of the differential equation </br> </br>
 	d Ψtrial(x) /dx ≈ f(x, Ψtrial) </br>
- d Ψtrial(x) /dx - f(x, Ψtrial) ≈ 0  (2)  </br>
+ d Ψtrial(x) /dx - f(x, Ψtrial) ≈ 0  (2)  </br></br>
+ we are trying to do is get (2) close to zero, then our trial solution approximates the analytical solution to a great accuracy.</br>
+
+So we define the loss function as:</br></br>
+	
+	LOSS = ∑{ (d Ψtrial(x) /dx) - f(x, Ψtrial) }2    for all x ∈ [0, 1]</br>
+
 
 
 ![question1](https://user-images.githubusercontent.com/52671445/144845678-7f79dba2-0ef6-4049-8a48-52c5e3ebcba5.jpg)
