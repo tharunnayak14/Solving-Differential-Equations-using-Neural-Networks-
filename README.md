@@ -13,7 +13,7 @@ Now all we need is a loss function, Ψtrial(x) is the solution of the differenti
 
 So we define the loss function as:</br></br>
 	
-	LOSS = ∑{ (d Ψtrial(x) /dx) - f(x, Ψtrial) }2    for all x ∈ [0, 1]</br>
+	LOSS = ∑{ (d Ψtrial(x) /dx) - f(x, Ψtrial) }2    for all x ∈ [0, 1]
 
 
 
