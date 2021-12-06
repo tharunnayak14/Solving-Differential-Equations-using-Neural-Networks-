@@ -2,11 +2,11 @@
 
 Consider the first order ODE: 
  	dΨ(x)/dx = f(x, Ψ)   (1)
- </br>
-with x ∈ [0, 1] and with the Initial Condition Ψ(0) = A. </br>
+ </br> </br>
+with x ∈ [0, 1] and with the Initial Condition Ψ(0) = A. </br> </br>
 A trial solution is written as:  Ψtrial(x) = A + xN(x, p) </br>
 where N(x, p) is the output of a ANN with one input unit for x and weights p.  </br>
-Now all we need is a loss function, Ψtrial(x) is the solution of the differential equation </br>
+Now all we need is a loss function, Ψtrial(x) is the solution of the differential equation </br> </br>
 	d Ψtrial(x) /dx ≈ f(x, Ψtrial) </br>
  d Ψtrial(x) /dx - f(x, Ψtrial) ≈ 0  (2)  </br>
 
