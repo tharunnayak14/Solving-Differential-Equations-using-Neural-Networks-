@@ -17,6 +17,7 @@ So we define the loss function as:</br></br>
 
 
 <p>Question 1</p></br>
+
 ![question1](https://user-images.githubusercontent.com/52671445/144845678-7f79dba2-0ef6-4049-8a48-52c5e3ebcba5.jpg)
 <p>&emsp; Ψ(0) = 0 and x ∈ [0, 2]</p>
 
