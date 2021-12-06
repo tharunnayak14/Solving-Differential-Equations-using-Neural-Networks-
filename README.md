@@ -6,7 +6,7 @@
 
 
 ![qu2](https://user-images.githubusercontent.com/52671445/144846039-b05a72bb-7eff-419a-bea2-84f191df98c5.jpg)
-      Ψ(0) = 1 and x ∈ [0, 1]
+  ,  Ψ(0) = 1 and x ∈ [0, 1]
 
 ![2021-12-03 13 36 30 localhost 768b914a053a](https://user-images.githubusercontent.com/52671445/144846051-1c3eb64c-2f6e-42ad-a89d-65e380f2d78c.png)
 
