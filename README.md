@@ -1,7 +1,8 @@
 # Solving-Differential-Equations-using-Neural-Networks-
 
 Consider the first order ODE: 
- 	dΨ(x)/dx = f(x, Ψ)   (1)
+ 	dΨ(x)/dx = f(x, Ψ)   (1)
+ </br>
 with x ∈ [0, 1] and with the Initial Condition Ψ(0) = A.
 A trial solution is written as:  Ψtrial(x) = A + xN(x, p)
 where N(x, p) is the output of a ANN with one input unit for x and weights p. 
